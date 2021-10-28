@@ -2,6 +2,7 @@
   <span class="header__inner">
     {{ partial "logo.html" . }}
     <span class="header__right">
+      {{ partial "socials.html" . }}
       {{ if len $.Site.Menus }}
         {{ partial "menu.html" . }}
         <span class="menu-trigger">
